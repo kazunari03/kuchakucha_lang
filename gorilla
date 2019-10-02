@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Gorilla < Brainfuck
+  nxt "うほうほ"
+  inc "うほっ"
+  prv "うーほ"
+  dec "うほ"
+  opn "ごり"
+  cls "うほうほー"
+  put "うほほ"
+  get "ゔほっ"
+end
+
+puts Gorilla.new.fuck(ARGF.read)
